@@ -27,7 +27,7 @@ function App() {
   }, [city]);
 
   return (
-    <div className="bg-[#1F213A] h-screen flex justify-center align-top">
+    <div className="bg-gradient-to-br from-[#494c6f] from-5% to-[#242539] to-90% h-screen flex justify-center align-top">
       <div className="mt-40 w-1/5 h-1/3">
         {weatherData && (
           <Suhu
@@ -65,8 +65,8 @@ function App() {
             <Highlights
               stats={{
                 title: "Visibility",
-                value: weatherData.current.vis_miles,
-                unit: "miles",
+                value: weatherData.current.vis_km,
+                unit: "Km",
               }}
             />
             <Highlights

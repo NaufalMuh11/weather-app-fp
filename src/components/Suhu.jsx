@@ -10,7 +10,7 @@ function Suhu({setCity, stats}) {
       <div className="flex justify-between">
         <input
           type="text"
-          className="bg-slate-600 border border-slate-500 text-slate-200 placeholder-bg-slate-400 text-md w-60 p-2 focus:outline-none focus:border-slate-400 "
+          className="bg-slate-600 border border-slate-500 text-slate-200 placeholder-bg-slate-400 text-md w-60 p-2 focus:outline-none focus:border-slate-400 rounded"
           placeholder="Enter Your City Name"
           onChange={handleCityChange}
           defaultValue={"Depok"}
@@ -38,7 +38,7 @@ function Suhu({setCity, stats}) {
       </div>
 
       <div className="flex justify-center items-center text-slate-200 mt-8 text-transform scale-100 hover:scale-110 transition-transform duration-300 ease-in-out">
-        <p className="font-semibold text-[55px]">{stats.temp}<span className="text-[33px]">°C</span></p>
+        <p className="font-semibold text-[55px]">{stats.temp}<span className="text-[55px]">°C</span></p>
       </div>
 
       <div className="flex justify-center items-center text-slate-300 mt-8 text-[25px] text-transform scale-100 hover:scale-110 transition-transform duration-300 ease-in-out">
