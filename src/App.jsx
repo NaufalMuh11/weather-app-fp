@@ -27,7 +27,7 @@ function App() {
   }, [city]);
 
   return (
-    <div className="bg-gradient-to-br from-[#494c6f] from-5% to-[#242539] to-90% h-screen flex justify-center align-top">
+    <div className="bg-gradient-to-br from-[#333655] from-1% to-[#141625] to-70% h-screen flex justify-center align-top">
       <div className="mt-40 w-1/5 h-1/3">
         {weatherData && (
           <Suhu
